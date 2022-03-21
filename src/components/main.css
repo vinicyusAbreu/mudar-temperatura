@@ -1,0 +1,23 @@
+main {
+    max-width: 540px;
+    min-height: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 6px 0px;
+}
+
+main h3 {
+    font-size: 3rem;
+    text-align: center;
+
+
+}
+
+@media(max-width: 420px) {
+    main {
+        max-width: 90%;
+        margin: 0 auto;
+
+    }
+}
